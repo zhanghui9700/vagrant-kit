@@ -7,3 +7,9 @@
 3. vagrant up
 4. vagrant halt
 5. vagrant destroy --force
+
+
+#### vm template
+
+1. saltstack(master/minion)
+2. franky for stor-dashboard(cobbler/slat/dashboard)
