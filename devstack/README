@@ -1,0 +1,12 @@
+
+### devstack
+
+    git clone https://github.com/openstack-dev/devstack.git
+
+    # trystack mirror
+    git clone http://git.trystack.cn/openstack-dev/devstack.git
+
+
+### stable/mitaka
+
+    ip: 192.168.1.6 admin/password
