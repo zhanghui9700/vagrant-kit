@@ -1,0 +1,39 @@
+
+### devstack
+
+    git clone https://github.com/openstack-dev/devstack.git
+
+    # trystack mirror
+    git clone http://git.trystack.cn/openstack-dev/devstack.git
+
+### deploy ready status
+
+	stack@pica:~/devstack$ sudo systemctl status | grep devstack
+           │ ├─system-devstack.slice
+           │ │ ├─devstack@n-api-meta.service
+           │ │ ├─devstack@n-super-cond.service
+           │ │ ├─devstack@q-meta.service
+           │ │ ├─devstack@c-sch.service
+           │ │ ├─devstack@placement-api.service
+           │ │ ├─devstack@n-cell-region.service
+           │ │ ├─devstack@q-agt.service
+           │ │ ├─devstack@g-reg.service
+           │ │ ├─devstack@n-cond-cell1.service
+           │ │ ├─devstack@n-cell-child.service
+           │ │ ├─devstack@n-novnc.service
+           │ │ ├─devstack@n-cond.service
+           │ │ ├─devstack@q-svc.service
+           │ │ ├─devstack@c-vol.service
+           │ │ ├─devstack@n-api.service
+           │ │ ├─devstack@q-dhcp.service
+           │ │ ├─devstack@dstat.service
+           │ │ │ ├─21669 /bin/bash /opt/stack/devstack/tools/dstat.sh /opt/stack/logs
+           │ │ ├─devstack@n-cauth.service
+           │ │ ├─devstack@etcd.service
+           │ │ ├─devstack@keystone.service
+           │ │ ├─devstack@n-sch.service
+           │ │ ├─devstack@g-api.service
+           │ │ ├─devstack@c-api.service
+           │ │ ├─devstack@n-cpu.service
+           │ │ └─devstack@q-l3.service
+
