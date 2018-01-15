@@ -15,7 +15,7 @@ Vagrant.configure(2) do |config|
      vb.gui = false
  
      vb.customize ["modifyvm", :id, "--nicpromisc2", "allow-all"]
-     vb.memory = 8192
+     vb.memory = 10240
   end
   config.vm.provision "shell", path: "install.sh"
 end
